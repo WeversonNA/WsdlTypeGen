@@ -1,0 +1,22 @@
+{
+  "name": "nova-pasta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "wsdl-tsclient": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/easy-soap-request": "^4.1.4"
+  },
+  "bin": {
+    "wsdlTypeGen": "./src/wsdlTypeGen.mjs"
+  }
+}
